@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestRegressor
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Загрузка датасэта
-df = pd.read_csv('Original MY2000-2014 Fuel Consumption Ratings.csv', low_memory=False)
+df = pd.read_csv('Data/Original MY2000-2014 Fuel Consumption Ratings.csv', low_memory=False)
 
 #переименовываем столбцы
 df = df.rename(columns={'ENGINE SIZE': 'ENGINE SIZE (L)', 
